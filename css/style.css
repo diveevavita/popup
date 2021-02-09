@@ -95,6 +95,7 @@ body {
 
 .logo {
 	margin: 30px auto 20px 30px;
+	width: 152px;
 }
 
 .name_card {
@@ -368,6 +369,7 @@ input[type="number"]::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
 input[type="number"]:hover,
 input[type="number"]:focus {
   -moz-appearance: number-input;
@@ -377,4 +379,41 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+@media (max-width: 480px) {
+
+	.logo {
+		width: 112px;
+		margin: 10px auto 20px 10px;
+	}
+
+	.close_butt {
+		height: 40px;
+    	width: 40px;
+	}
+
+	.close_butt div {
+		height: 40px;
+    	width: 40px;
+	}
+
+	.close_butt .lt-rt {
+		width: 40px;
+		margin-top: 20px;
+	}
+
+	.close_butt .rt-lt {
+		width: 40px;
+		margin-top: 20px;
+	}
+
+	.card-form_items {
+		width: 95%;
+	}
+
+	.name_card {
+		font-size: 22px;
+		margin: 10px auto 30px;
+	}
 }
