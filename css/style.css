@@ -77,7 +77,6 @@ body {
 	-ms-flex-pack: justify;
 	justify-content: space-between;
 	padding: 0 0 100px;
-	background: rgba(0, 0, 0, 0.4);
 }
 
 .container__content {
