@@ -86,6 +86,7 @@ body {
 .card-form {
 	display: block;
 	width: 663px;
+	height: 903px;
 	margin: 20px auto;
 	border: 1px solid;
 	border-color: #EAEAEA;
@@ -223,6 +224,11 @@ input:focus:-ms-input-placeholder { color:transparent; }
   clip: rect(1px, 1px, 1px, 1px);
   width: 1px;
   height: 1px;
+}
+
+.button_card-link {
+	text-decoration: none;
+	width: 100%;
 }
 
 .send-button {
